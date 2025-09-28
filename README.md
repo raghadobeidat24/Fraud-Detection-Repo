@@ -1,14 +1,14 @@
-#Fraud Detection Case Study – Credit Card Transactions
-##Project Overview
+# Fraud Detection Case Study – Credit Card Transactions
+## Project Overview
 
 The goal of this project is to design a predictive model that detects fraudulent credit card transactions, moving from a reactive to a proactive fraud detection strategy.
 
 Fraud is rare (<1.2% of all transactions) but costly. Our analysis shows it is not random: it clusters around specific merchants, categories, and higher transaction amounts.
 
-###Key Result:
+## #Key Result:
 The models can detect up to 98% of fraud cases, representing ~$13.9M/month in prevented fraud losses.
 
-##Objectives
+## Objectives
 
 Analyze a dataset of ~595K credit card transactions.
 
@@ -19,3 +19,20 @@ Build multiple ML models to classify fraud vs. non-fraud.
 Compare performance with metrics suited for imbalance (Recall, Precision, F1, ROC-AUC).
 
 Translate results into business impact (ROI).
+
+## Repository Structure
+
+Best Model - Logistic Regression/  # Final chosen model + scaler
+   ├── amount_scaler.joblib #  STD Scaler
+   ├── fraud_LR_model.joblib #  saved Logistic Regression model
+
+Models/
+   ├── LogisticRegression.ipynb
+   ├── RandomForest.ipynb
+   ├── XGboost.ipynb
+
+EDA.ipynb #  Exploratory Data Analysis
+requirements.txt # Libraries to install 
+
+
+
