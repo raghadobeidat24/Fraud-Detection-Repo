@@ -21,20 +21,38 @@ Compare performance with metrics suited for imbalance (Recall, Precision, F1, RO
 Translate results into business impact (ROI).
 
 ## Repository Structure
-'''
+```
 ├── EDA.ipynb # Exploratory Data Analysis
 ├── Models/ # Model training notebooks
-│ ├── Model_LogisticRegression.ipynb
-│ ├── Model_RandomForest.ipynb
-│ ├── Model_XGBoost_All.ipynb
-│ ├── Model_XGBoost_Top15.ipynb
-├── Best_Model/ # Final chosen model + scaler
+│ ├── LogisticRegression.ipynb
+│ ├── RandomForest.ipynb
+│ ├── XGBoost_All.ipynb
+│ ├── XGBoost_Top15.ipynb
+├── Best_Model/ # Final chosen model LogReg + scaler
 │ ├── fraud_LR_model.joblib
 │ ├── amount_scaler.joblib
 ├── requirements.txt # Dependencies
 ├── README.md # Project description
-└── Fraud_Detection_Presentation.pptx # Summary slides
-'''
+└── Fraud_Detection.pptx # Project Power Point slides
+```
+
+## Methodology
+
+EDA: Checked imbalance, fraud patterns, transaction amounts, categories, and merchants.
+
+Feature Engineering: Added day, hour, and time_of_day from the step column.
+
+Models: Logistic Regression, Random Forest, XGBoost (all + top 15 features).
+
+Evaluation Metrics: Recall, Precision, F1, ROC-AUC.
+## Results (Test Data)
+
+| Model               | Recall | Precision | ROC-AUC |
+|----------------------|--------|-----------|---------|
+| Logistic Regression  | 0.98   | 0.32      | 0.997   |
+| Random Forest        | 0.91   | 0.38      | 0.986   |
+| XGBoost (All)        | 0.97   | 0.33      | 0.997   |
+| XGBoost (Top 15)     | 0.97   | 0.22      | 0.995   |
 
 
 
