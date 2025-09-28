@@ -47,12 +47,13 @@ Models: Logistic Regression, Random Forest, XGBoost (all + top 15 features).
 Evaluation Metrics: Recall, Precision, F1, ROC-AUC.
 ## Results (Test Data)
 
-| Model               | Recall | Precision | ROC-AUC |
-|----------------------|--------|-----------|---------|
-| Logistic Regression  | 0.98   | 0.32      | 0.997   |
-| Random Forest        | 0.91   | 0.38      | 0.986   |
-| XGBoost (All)        | 0.97   | 0.33      | 0.997   |
-| XGBoost (Top 15)     | 0.97   | 0.22      | 0.995   |
+| Model               | Accuracy | Recall | Precision | ROC-AUC |
+|----------------------|----------|--------|-----------|---------|
+| Logistic Regression  | 97.5%    | 0.98   | 0.32      | 0.997   |
+| Random Forest        | 98.1%    | 0.91   | 0.38      | 0.986   |
+| XGBoost (All)        | 97.6%    | 0.97   | 0.33      | 0.997   |
+| XGBoost (Top 15)     | 96.0%    | 0.97   | 0.22      | 0.995   |
+
 
 
 
