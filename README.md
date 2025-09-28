@@ -18,7 +18,6 @@ Build multiple ML models to classify fraud vs. non-fraud.
 
 Compare performance with metrics suited for imbalance (Recall, Precision, F1, ROC-AUC).
 
-Translate results into business impact (ROI).
 
 ## Repository Structure
 ```
