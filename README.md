@@ -21,7 +21,7 @@ Compare performance with metrics suited for imbalance (Recall, Precision, F1, RO
 Translate results into business impact (ROI).
 
 ## Repository Structure
-
+'''
 ├── EDA.ipynb # Exploratory Data Analysis
 ├── Models/ # Model training notebooks
 │ ├── Model_LogisticRegression.ipynb
@@ -34,6 +34,7 @@ Translate results into business impact (ROI).
 ├── requirements.txt # Dependencies
 ├── README.md # Project description
 └── Fraud_Detection_Presentation.pptx # Summary slides
+'''
 
 
 
