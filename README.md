@@ -22,17 +22,19 @@ Translate results into business impact (ROI).
 
 ## Repository Structure
 
-Best Model - Logistic Regression/  # Final chosen model + scaler
-   ├── amount_scaler.joblib #  STD Scaler
-   ├── fraud_LR_model.joblib #  saved Logistic Regression model
+├── EDA.ipynb                   # Exploratory Data Analysis
+├── Models/                     # Model training notebooks
+│   ├── Model_LogisticRegression.ipynb
+│   ├── Model_RandomForest.ipynb
+│   ├── Model_XGBoost_All.ipynb
+│   ├── Model_XGBoost_Top15.ipynb
+├── Best_Model/                 # Final chosen model + scaler
+│   ├── fraud_LR_model.joblib
+│   ├── amount_scaler.joblib
+├── requirements.txt            # Dependencies
+├── README.md                   # Project description
+└── Fraud_Detection.pptx  # Summary slides
 
-Models/
-   ├── LogisticRegression.ipynb
-   ├── RandomForest.ipynb
-   ├── XGboost.ipynb
-
-EDA.ipynb #  Exploratory Data Analysis
-requirements.txt # Libraries to install 
 
 
 
